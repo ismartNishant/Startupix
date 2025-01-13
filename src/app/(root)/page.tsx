@@ -15,7 +15,7 @@ const page = async ({ searchParams }: { searchParams: Promise<{ query?: string }
 
   return (
     <>
-      <section className='pink_container'>
+      <section className='pri_container'>
         <h1 className='heading'>Your Startup, Your Stage <br /> Pitch Your Vision Here.</h1>
         <p className='sub-heading !max-w-3xl'>List your startup, reach new audiences, and connect with innovators reshaping the future.</p>
         <SearchForm query={query} />
